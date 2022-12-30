@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url("image/image.jpg");
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+h1{
+    font-weight: bold;
+    font-size: 4rem;
+    margin-top: 5rem;
+    color: black;
+    
+}
+.countdown-container{
+    display: flex;
+}
+.bigtext{
+    font-weight: bold;
+    font-size: 5rem;
+    line-height: 1;
+    margin: 0 2rem;
+    color: black;
+}
+.countdown-el{
+    text-align: center;
+}
+.countdown-el span{
+    font-size: 1.5rem;
+}
+.h{
+    color: #A683E3;
+}
